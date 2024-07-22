@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleccionar Rol</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #11101D;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+
+        .role-button {
+            display: inline-block;
+            margin: 20px;
+            padding: 15px 30px;
+            font-size: 18px;
+            color: white;
+            background-color: #17152b;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .role-button:hover {
+            background-color: #11101D;
+        }
+
+        .separator {
+            width: 2px;
+            height: 900px; 
+            background-color: #ccc;
+            margin: 0 20px;
+        }
+        body.dark-mode {
+	background-color: black;
+	color: white;
+}
+#mode-selector img {
+    width: 100px;
+    height: auto; 
+    transition: transform 0.3s;
+}
+button {
+	margin-top: 12px;
+	padding: 14px 24px;
+	font-size: 20px;
+	cursor: pointer;
+}
+#mode-selector {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            z-index: 1000; 
+        }
+
+        #mode-selector img {
+            width: 60px; 
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <button aria-label="selecionar-modo" id="mode-selector">
+        <img src=".//imagen/Designer-removebg-preview.png" title="Cambiar color de Fondo" alt="">
+      </button>
+      </main>
+      <script src="./js/main.js"></script>
+  </body> 
+      </div>
+    <div class="container">
+        <div>
+            <a href="./cuenta.html" class="role-button">Alumno</a>
+        </div>
+        <div class="separator"></div>
+        <div>
+            <a href="./cuenta1.html" class="role-button">Profesor</a>
+        </div>
+    </div>
+</body>
+</html>
